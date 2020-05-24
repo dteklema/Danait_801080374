@@ -1,1 +1,1 @@
-# Danait_801080374.
+This is the initial README file for the course
