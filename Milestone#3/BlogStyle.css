@@ -1,0 +1,63 @@
+/*Styling the body for all html's in blog*/
+body {
+    font-family: Calibri, cursive;
+    font-size: 17px;
+}
+/*Styling the body/html for all html's in blog*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    color: black;
+}
+/*Styling the navigation bar for all html's in blog*/
+.nav {
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    background-color: darkslategray;
+    text-align: right;
+    margin-top: 0;
+}
+/*Styling the body for all html's in blog*/
+.nav a {
+    display: inline-block;
+    padding: 20px;
+    padding-right: 70px;
+    color: rosybrown;
+}
+/*Styling the body for all html's in blog*/
+.nav a:hover {
+    color: sandybrown;
+}
+/*styling for background (below the navigation bar)*/
+.style {
+    padding: 100px;
+    text-align: center;
+    background-color: lavender;
+
+}
+/*styling blog entries in html*/
+#blog {
+    padding: 80px;
+    text-align: center;
+    background-color: rosybrown;
+}
+/*styling design in html*/
+.design {
+    display: inline-block;
+    padding: 50px;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+/*styling for footer*/
+footer {
+    text-align: center;
+    background-color:darkslategray;
+    color: rosybrown;
+    padding: 5px;
+    overflow: hidden;
+    width: 100%;
+   margin-top: 33px;
+}

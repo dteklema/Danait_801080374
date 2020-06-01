@@ -1,0 +1,74 @@
+/*Styling the body for all html's in admin*/
+body {
+    font-family: Calibri, cursive;
+    font-size: 17px;
+    background: linen;
+}
+/*Styling the body/html for all html's in admin*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    color: black;
+}
+/*Styling the navigation bar for all html's in admin*/
+.nav {
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    background-color: darkslategray;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+/*Styling the body for all html's in admin*/
+#blog {
+    padding: 230px;
+    text-align: center;
+    background-color: peachpuff;
+
+}
+/*Styling the body for all html's in admin*/
+#manag,#manag1{
+    padding: 30px;
+    text-align: center;
+    background-color: rosybrown;
+}
+/*Styling the body for all html's in admin*/
+#Login{
+    text-align: left;
+}
+/*Styling the body for all html's in admin*/
+footer {
+    text-align: center;
+    background-color:darkslategray;
+    color: black;
+    padding: 2px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 40px;
+}
+/*Styling html admin pages*/
+tr,td{
+    width: 10px;
+    height: 5px;
+    font-size: 20px;
+
+}
+/*Styling icons in html's in admin*/
+.icon{
+    height: 50px;
+    width: 50px;
+}
+/*Styling form in admin*/
+#form{
+    text-align: center;
+    background-color: rgba(221,192,171,0.56);
+
+}
+/*Styling footer*/
+.foo{
+    margin-top: 350px;
+    margin-bottom: 20px;
+}
