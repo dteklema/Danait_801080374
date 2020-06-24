@@ -1,0 +1,36 @@
+
+#resizer{
+    cursor: pointer;
+}
+.style{
+    background: url("Image.jpg") no-repeat center;
+    margin-top: 0;
+    height: 300px;
+    width: 100%;
+}
+.style h1{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 100px;
+    font-size: 30px;
+    color: peachpuff;
+}
+.style img{
+    width: 100%;
+}
+.BackgroundSwitch button{
+    border: none;
+    padding: 0;
+    display: block;
+    margin-left: 68%;
+    margin-top: 5px;
+    background: transparent;
+}
+.BackgroundSwitch img {
+    width: 20px;
+    padding: 0;
+    border: none;
+}
+.BackgroundSwitch button:horizontal{
+
+}
