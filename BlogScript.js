@@ -41,7 +41,7 @@ function playSlides() {
                 break;
             case 1:
                 document.getElementById(parts[0]).style.display = "none";
-                document.getElementById(parts[2]).style.display = "none";
+                document.getElementById(parts[2]).style.display = " none";
                 chose = 2
                 break;
             case 2:
