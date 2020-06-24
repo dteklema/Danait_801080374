@@ -1,0 +1,68 @@
+/*Styling the body for all html's in admin*/
+body {
+    font-family: Calibri, cursive;
+    font-size: 17px;
+    background: linen;
+}
+/*Styling the body/html for all html's in admin*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    color: black;
+}
+/*Styling the navigation bar for all html's in admin*/
+.nav {
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    background-color: darkslategray;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+/*Styling the body for all html's in admin*/
+#blog {
+    padding: 230px;
+    text-align: center;
+    background-color: peachpuff;
+
+}
+#manag,#manag1{
+    padding: 30px;
+    text-align: center;
+    background-color: rosybrown;
+}
+#Login{
+    text-align: left;
+    background-color: peachpuff;
+}
+footer {
+    text-align: center;
+    background-color:darkslategray;
+    color: black;
+    padding: 2px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 40px;
+}
+tr,td{
+    width: 10px;
+    height: 5px;
+    font-size: 20px;
+
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+#form{
+    text-align: center;
+    background-color: rgba(221,192,171,0.56);
+
+}
+.foo{
+    margin-top: 350px;
+    margin-bottom: 20px;
+}
