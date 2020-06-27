@@ -1,0 +1,30 @@
+CREATE TABLE `employees` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(100) NOT NULL,
+  `last_name` varchar(100) NOT NULL,
+  `profession` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+INSERT INTO `users ` (`first_name`, `last_name`, `profession`) VALUES 
+                       ('Robin', 'Jackman', 'Software Engineer'),
+                       ('Taylor', 'Edward', 'Software Architect'),
+                       ('Vivian', 'Dickens', 'Database Administrator'),
+                       ('Harry', 'Clifford', 'Database Administrator'),
+                       ('Eliza', 'Clifford', 'Software Engineer'),
+                       ('Nancy', 'Newman', 'Software Engineer'),
+                       ('Melinda', 'Clifford', 'Project Manager'),
+                       ('Harley', 'Gilbert', 'Software Architect);
+CREATE TABLE `user` (
+  id int NOT NULL AUTO_INCREMENT,
+  `firstname` int DEFAULT NULL,
+  `lastname` varchar(100) NOT NULL
+  PRIMARY KEY (`id`)
+)
+NSERT INTO `user` (`employee_id`, `user_type`, `username`, `password`) VALUES
+                   (NULL, 'SUPER ADMIN', 'admin', 'admin'),
+                   (1, 'NORMAL', 'robin', 'robin'),
+                   (2, 'ADMIN', 'taylor', 'taylor'),
+                   (3, 'ADMIN', 'vivian', 'vivian'),
+                   (4, 'NORMAL', 'harry', 'harry'),
+                   (7, 'ADMIN', 'melinda', 'melinda'),
+                   (8, 'NORMAL', 'harley', 'harley');

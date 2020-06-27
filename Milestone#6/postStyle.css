@@ -1,0 +1,48 @@
+.nav{
+    background-image: linear-gradient(white, gray);
+    position: absolute;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+
+}
+.nav li{
+    display: inline;
+}
+.nav a:link{
+    text-decoration: none;
+    color: #3e3e3e;
+    font-size: large;
+}
+.nav a:active{
+    text-decoration: none;
+    color: #3e3e3e;
+    font-size: large;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: #3e3e3e;
+    font-size: large;
+}
+.nav a:visited{
+    text-decoration: none;
+    color: #3e3e3e
+}
+.content{
+    margin-top: 60px;
+    width: 100%;
+    float: left;
+    position: absolute;
+}
+.status, .user_add, .user_edit{
+    display: none;
+}
+.status{
+    border: 0px solid gray;
+    padding: 10px;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.status tr, td, th {
+    padding: 10px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="BlogStyle.css" rel="stylesheet">
+    <script src="Blogdb.js"></script>
+    <title>Index</title>
+    </head>
+    <body>
+
+        <ul class="nav">
+            <a id="resizer" onclick="fontResizer()">Font resizer</a>
+<!--            <a id="StyleSwitcher"> Style Switcher |</a>-->
+            <a id=login href="Admin/login.html" >Admin Login </a>
+        </ul>
+        <div class ="style">
+                <h1 id="Heading"> Network Based Application</h1>
+                <div class="BackgroundSwitch">
+                <button id="image1" onclick="changeBackground(this.id)" value="Image1"><img src="Image-1.jpg"></button>
+                <button id="image2" onclick="changeBackground(this.id)" value="Image2"><img src="Image-2.jpg"></button>
+                <button id="image3" onclick="changeBackground(this.id)" value="Image3"><img src="Image-3.jpg"></button>
+                </div>
+            </div>
+        <div id="buttons">
+            <button type="button" id="playSlide" onclick="playSlides()">Play Slides</button>
+            <button type="button" id="stopSlide" onclick="stopSlides()">Stop Slides</button>
+        </div>
+
+        <div id="blogs">
+            <a href="post.html" >Blog Entry </a>
+            <div id="blog1">Blog #1</div>
+            <div id="blog2">Blog #2</div>
+            <div id="blog3">Blog #3</div>
+            <div id="blog4">Blog #4</div>
+        </div>
+
+    </body>
+
+
+
+
+
+    <footer>
+            <h4>Copyright@DanaitMichael</h4>
+    </footer>
+</html>
