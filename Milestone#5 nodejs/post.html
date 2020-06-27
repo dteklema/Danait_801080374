@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="BlogStyle.css" rel="stylesheet">
+    <script src="server.js"></script>
+
+    <title>Blog Entry</title>
+</head>
+<body>
+<ul class="nav">
+    <a id="resizer">Font resizer | </a>
+    <a id="switcher">Style switcher | </a>
+    <a id="login" href="Admin/login.html" | >Admin Login</a>
+</ul>
+<ul class="style">
+    Background
+</ul>
+<div id="blogs">
+    <!--            -->
+    <!--         <input type="button" name='create' onClick="createDatabase()" value='Create Database'>-->
+    <!--         <input type="button" name='create' onClick="createTable()" value='create table'>-->
+    <!--         <input type="button" name='insert' onClick="insertValue()" value='Insert value'>-->
+    <!--         <input type="file" id="file" >-->
+    <div class="nav">
+        <ul>
+            <li><a href='#' onclick='showAddForm()'>Add User</a></li>
+            <li>|</li>
+            <li><a href='#' onclick="showList()">List Users</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div><h1>user Management</h1></div>
+        <div class='landing_page' id='landing_page'>Please Select which operation to do from the top</div>
+        <div class='status' id='status'>Status</div>
+        <div class='add_user' id='user_add'>
+            <form name='user_add' method='POST'>
+                <table>
+                    <tr>
+                        <td>User Full Name</td>
+                        <td><input type='input' name='userFullName' value=""/> </td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td><input type='input' name='userEmail' value=""/> </td>
+                    </tr>
+                    <tr>
+                        <td>Active</td>
+                        <td>
+                            Yes <input type='radio' name="userActive" value='1'>
+                            No <input type='radio' name='userActive' value='0'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button name='add' onclick='return addUser()'>Add User</button>
+                            <button name='goBack' onclick='showList()'>Go Back</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class='user_listing' id='user_listing'></div>
+        <div class='user_edit' id='user_edit'>
+            <form name='user_edit'>
+                <table>
+                    <tr>
+                        <td>User ID</td>
+                        <td><span id='userID'></span></td>
+                    </tr>
+                    <tr>
+                        <td>User Full Name</td>
+                        <td><input type='input' name='userFullName' value=""/> </td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td><input type='input' name='userEmail' value=""/> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button name='save' onclick='return saveUserChanges()'>Save Changes</button>
+                            <button name='goBack' onclick='showList()'>Go Back</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script src='BlogScript.js'></script>
+        <!--footer copyright-->
+        <footer>
+            <p>Copyright@DanaitMichael</p>
+        </footer>
+</body>
+</html>
